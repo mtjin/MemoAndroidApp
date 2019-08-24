@@ -15,10 +15,10 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditorActivity"
+        <activity android:name=".activity.editor.EditorActivity"
             android:launchMode="singleTask"
             android:theme="@style/EditorTheme"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW"/>
